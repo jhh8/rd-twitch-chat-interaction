@@ -11,3 +11,5 @@ mapspawn.nut goes into scripts/vscripts folder in your server, make sure you hav
 the javascript appends twitch messages into a file called chat_messages located in save/vscripts folder on your server, which then gets parsed by mapspawn.nut to produce certain actions
 
 big thanks to vq and banano for help with javascript
+
+some footage https://www.twitch.tv/videos/2339131868
