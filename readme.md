@@ -8,4 +8,6 @@ configure the javascript to launch your dedicated server (srcds.exe) with needed
 tmi.js dependency is required https://tmijs.com/
 mapspawn.nut goes into scripts/vscripts folder in your server, make sure you have sv_mapspawn_nut_exec 1 set or it wont run
 
+the javascript appends twitch messages into a file called chat_messages located in save/vscripts folder on your server, which then gets parsed by mapspawn.nut to produce certain actions
+
 big thanks to vq and banano for help with javascript
