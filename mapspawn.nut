@@ -379,6 +379,9 @@ function MarineSwap( strCallerName )
 		strVictimName1 = Players_t[0].GetPlayerName();
 		
 		local hNewMarine = GetRandomMarine( Players_t[0].GetMarine() );
+		if ( !hNewMarine )
+			return;
+		
 		strVictimName2 = hNewMarine.GetMarineName();
 		
 		Players_t[0].SetNPC( hNewMarine );
